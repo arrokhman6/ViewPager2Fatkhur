@@ -17,7 +17,7 @@ class GithubFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_github,container,attachToRoot:false)
+        return inflater.inflate(R.layout.fragment_github,container,false)
     }
 
     override fun onViewCreated(view: View, @Nullable savedInstanceState: Bundle?) {

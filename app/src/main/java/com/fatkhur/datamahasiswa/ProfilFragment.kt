@@ -17,7 +17,7 @@ class ProfilFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.onCreateView(R.layout.fragment_profil,container,attachToRoot:false)
+        return inflater.inflate(R.layout.fragment_profil, container,false)
     }
 
     override fun onViewCreated(view: View, @Nullable savedInstanceState: Bundle?) {
