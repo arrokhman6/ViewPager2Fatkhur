@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-android-extensions'
+    id 'kotlin-android-extentions'
 }
 
 android {
@@ -31,9 +31,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    androidExtensions {
-        experimental = true
-    }
 }
 
 dependencies {
@@ -49,6 +46,4 @@ dependencies {
 
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
     implementation 'com.google.android.material:material:1.2.0-alpha06'
-
-    implementation "androidx.recyclerview:recyclerview:1.1.0"
 }
